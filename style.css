@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.board {
+    display: grid;
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+}
+.outercontent {
+    display: flex;
+}
+.colorbuttoncontainer {
+    display: flex;
+    flex-direction: column;
+}
+.startresetbutton {
+    display: flex;
+    justify-content: space-around;
+}
